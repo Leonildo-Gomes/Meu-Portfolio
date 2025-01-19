@@ -1,0 +1,22 @@
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: green;
+    height: 100%;
+}
+
+.contacto  h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+}
+.containe-contact {
+    display: flex;
+    align-items: center;
+    padding: 30% 5% 0;
+    justify-content: center;
+
+}

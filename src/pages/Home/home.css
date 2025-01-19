@@ -1,0 +1,92 @@
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    padding: 50px 5% 0;
+    color: #fff;
+    animation-delay: 1.5s;
+}
+.home-detail h1{
+   font-size: 55px;
+   line-height: 1;
+}
+
+.home-detail h2{
+    font-size: 32px;
+    line-height: 1;
+ }
+.home-detail p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 0 20px;
+}
+
+
+.home-detail .download-socail{
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #fff;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.btn:hover {
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+
+.home-detail .social-icons  {
+    margin-left: 20px;
+}
+
+.home-detail .social-icons a {
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    transition: .5s;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.home-detail .social-icons a:hover {
+    background: #fff;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+}
+
+
+.home-img .img-box {
+    position: relative;
+    width: 28vw;
+    height: 28vw;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 20px;
+    overflow: hidden;
+}
+
+.home-img .img-box img {
+    position: relative;
+    height: 100%;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    
+}
